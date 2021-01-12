@@ -7,5 +7,5 @@ public interface BuilderInterface {
 
     void addHeadLights();
 
-    Product getVehicle();
+    CompletedProduct getVehicle();
 }

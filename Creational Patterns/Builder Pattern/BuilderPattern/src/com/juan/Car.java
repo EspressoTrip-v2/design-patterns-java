@@ -1,25 +1,25 @@
 package com.juan;
 
 public class Car implements BuilderInterface{
-    private Product product = new Product();
+    private CompletedProduct completedProduct = new CompletedProduct();
 
     @Override
     public void buildBody() {
-        product.add("This is a body of a Car");
+        completedProduct.add("This is a body of a Car");
     }
 
     @Override
     public void insertWheels() {
-        product.add("4 wheels added");
+        completedProduct.add("4 wheels added");
     }
 
     @Override
     public void addHeadLights() {
-        product.add("2 headlights added");
+        completedProduct.add("2 headlights added");
     }
 
     @Override
-    public Product getVehicle() {
-        return product;
+    public CompletedProduct getVehicle() {
+        return completedProduct;
     }
 }

@@ -3,10 +3,10 @@ package com.juan;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Product {
+public class CompletedProduct {
     private LinkedList<String> parts;
 
-    public Product() {
+    public CompletedProduct() {
         this.parts = new LinkedList<>();
     }
 
